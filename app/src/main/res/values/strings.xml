@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">2.2_viewgroups_sharedpref_2.2.2</string>
+    <string name="openNotePad">Открыть записную книжку</string>
+    <string name="note_text">note_text</string>
+    <string name="MyNote">MyNote</string>
+    <string name="data_saved">Данные сохранены</string>
+    <string name="save">Сохранить</string>
+</resources>
