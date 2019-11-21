@@ -9,7 +9,9 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import static com.example.a22_viewgroups_sharedpref_222.R.id.action_money_transfer;
 import static com.example.a22_viewgroups_sharedpref_222.R.id.action_open_notes;
+import static com.example.a22_viewgroups_sharedpref_222.R.id.action_spinner;
 import static com.example.a22_viewgroups_sharedpref_222.R.menu.menu_main;
 
 public class MainActivity extends AppCompatActivity {
@@ -39,6 +41,20 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intentNotes);
             return true;
         }
+        if (id == action_spinner) {
+            Toast.makeText(MainActivity.this, "Открыть выбор адреса", Toast.LENGTH_LONG).show();
+            Intent intentApplication = new Intent(MainActivity.this, SpinnerActivity.class);
+            startActivity(intentApplication);
+            return true;
+        }
+
+        if (id == action_money_transfer) {
+            Toast.makeText(MainActivity.this, "Открыть перевод денег", Toast.LENGTH_LONG).show();
+            Intent intentMoney = new Intent(MainActivity.this, MoneyTransferActivity.class);
+            startActivity(intentMoney);
+            return true;
+        }
+
         return super.onOptionsItemSelected(item);
     }
 }

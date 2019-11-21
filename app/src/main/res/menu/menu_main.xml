@@ -4,14 +4,21 @@
     tools:context="com.netodologia.myapplication.MainActivity">
 
     <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:title="Settings"
-        app:showAsAction="never" />
-
-    <item
         android:id="@+id/action_open_notes"
         android:orderInCategory="100"
         android:title="Записная книжка"
         app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_spinner"
+        android:orderInCategory="100"
+        android:title="Выбор адреса"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_money_transfer"
+        android:orderInCategory="100"
+        android:title="Перевод денег"
+        app:showAsAction="never" />
+
 </menu>

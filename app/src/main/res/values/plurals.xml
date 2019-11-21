@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="money_transfer_message">
+        <item quantity="one">Перевод %d рубля %s %s.</item>
+        <item quantity="other">Перевод %d рублей %s %s.</item>
+    </plurals>
+</resources>

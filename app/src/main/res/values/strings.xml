@@ -5,4 +5,33 @@
     <string name="MyNote">MyNote</string>
     <string name="data_saved">Данные сохранены</string>
     <string name="save">Сохранить</string>
+    <string name="money_input">Ввод денег</string>
+    <string name="payment_info">Информация об оплате</string>
+    <string name="from_card">С банковской карты</string>
+    <string name="from_phone">С мобильного телефона</string>
+    <string name="cash_on_address">Наличными по адресу</string>
+    <string name="test_text">Тестовое сообщение</string>
+    <string name="toCard">на банковскую карту</string>
+    <string name="toPhone">по номеру телефона</string>
+    <string name="toAddress">наличными по адресу</string>
+    <string-array name="countries">
+        <item>Россия</item>
+        <item>Украина</item>
+        <item>Белоруссия</item>
+    </string-array>
+    <string-array name="r_cities">
+        <item>Москва</item>
+        <item>Санкт-Петербург</item>
+        <item>Казань</item>
+    </string-array>
+    <string-array name="u_cities">
+        <item>Киев</item>
+        <item>Одесса</item>
+        <item>Харьков</item>
+    </string-array>
+    <string-array name="b_cities">
+        <item>Минск</item>
+        <item>Гомель</item>
+        <item>Торжок</item>
+    </string-array>
 </resources>
